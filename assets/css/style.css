@@ -98,7 +98,9 @@ img{
 .banner-medio {
     width: 100vw;
     height: 100vh;
-    height: 2100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .black {
@@ -128,9 +130,14 @@ img{
     font-size: 38px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .texto2{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 22px;
     text-transform: uppercase;
 }
@@ -239,4 +246,12 @@ img{
     transition: all;
     transition-delay: 100ms;
     transition-duration: 500ms;
+}
+
+.content3{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
